@@ -24,7 +24,8 @@ curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_
 mv /tmp/mobilenet_v1_1.0_224/labels.txt /tmp/
 ```
 
-#We can also go for uploading models that have already been uploaded in the git repo in respective folders :
+#We can also go for uploading models that have already been uploaded in the git repo in respective folders (instead of tmp/ folder in this command line : $   --model_file /tmp/mobilenet_v1_1.0_224.tflite \):
+
 tflite/mobilenetv1
 
 tflite/inception
