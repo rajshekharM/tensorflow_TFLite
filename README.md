@@ -4,11 +4,6 @@ This `label_image.py` script shows how you can load a pre-trained and converted
 TensorFlow Lite model and use it to recognize objects in images. The Python
 script accepts arguments specifying the model to use, the corresponding labels
 file, and the image to process.
-
-**Tip:**
-If you're using a Raspberry Pi, instead try the [classify_picamera.py example](
-https://github.com/tensorflow/examples/tree/master/lite/examples/image_classification/raspberry_pi).
-
 Before you begin,
 make sure you [have TensorFlow installed](https://www.tensorflow.org/install).
 
@@ -28,6 +23,13 @@ curl https://storage.googleapis.com/download.tensorflow.org/models/mobilenet_v1_
 
 mv /tmp/mobilenet_v1_1.0_224/labels.txt /tmp/
 ```
+
+#We can also go for uploading models that have already been uploaded in the git repo in respective folders :
+tflite/mobilenetv1
+tflite/inception
+tflite/resnet
+
+and load the models from those folders while executing following command from linux terminal
 
 ## Run the sample
 
